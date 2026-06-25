@@ -8,7 +8,7 @@ st.set_page_config(
     layout="wide"
 )
 
-html_file = Path("indexw.html")
+html_file = Path("index.html")
 
 if html_file.exists():
     html_content = html_file.read_text(encoding="utf-8")
